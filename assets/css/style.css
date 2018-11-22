@@ -182,9 +182,9 @@ fieldset {
 .welcome-image-area {
     position: relative;
     height: 100%;
-    background: url(../images/bg/bg.jpg);
+    background: url(../images/bg/lush-trees.jpg);
     background-size: cover;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .welcome-image-area:after {
@@ -248,10 +248,11 @@ fieldset {
 }
 
 .logo {
-    padding-top: 28px;
+	padding-top: 28px;
+	height: 30px;
+	width: 30px;
     -webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
-	background-image: "../BoldBackwoodsAdvanced/assets/images/logo/Black&White.png";
 }
 
 .logo a {
@@ -355,9 +356,7 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.skills-area {
-    background: #f7f7f7;
-}
+/* .skills-area {}
 
 .single-progress-bar {
     margin-bottom: 10px;
@@ -377,7 +376,7 @@ fieldset {
     border: 0;
     margin-top: 4px;
     border-radius: 0;
-}
+} */
 
 
 /*
@@ -386,7 +385,7 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.resume-design-area {}
+/* .resume-design-area {}
 
 .single-resume h3 {
     font-size: 18px;
@@ -435,7 +434,7 @@ fieldset {
     font-size: 12px;
     line-height: 32px;
     margin-top: 10;
-}
+} */
 
 
 /*
@@ -444,7 +443,7 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.service-area {
+/* .service-area {
     background: #f7f7f7;
 }
 
@@ -478,7 +477,7 @@ fieldset {
 
 .single-service p {
     color: #232323;
-}
+} */
 
 
 /*
@@ -487,7 +486,9 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.work {}
+.work {
+	background: #f7f7f7;
+}
 
 .work-inner .mix {
     display: none;
@@ -546,12 +547,14 @@ ul.work li.active {
     min-width: 320px;
     max-width: 480px;
     max-height: 360px;
-    width: 100%;
+    width: 94%;
     height: auto;
     text-align: center;
     cursor: pointer;
     padding: 0;
-    margin: 0;
+	margin: 11px;
+	/* Ask Nate about this box shadow */
+	box-shadow: 1px 3px 3px grey;
 }
 
 .work .grid figure:hover {
@@ -599,7 +602,7 @@ ul.work li.active {
 * ----------------------------------------------------------------------------------------
 */
 
-.testimonial-area {
+/* .testimonial-area {
     background: #f7f7f7;
 }
 
@@ -634,7 +637,7 @@ ul.work li.active {
     border-radius: 20px;
     background: #000;
 }
-
+ */
 
 /*
 * ----------------------------------------------------------------------------------------
