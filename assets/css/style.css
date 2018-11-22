@@ -223,7 +223,7 @@ fieldset {
 
 .header-text h2 {
     color: #fff;
-    font-size: 120px;
+    font-size: 105px;
     font-weight: 900;
     text-transform: capitalize;
 }
@@ -248,9 +248,8 @@ fieldset {
 }
 
 .logo {
-	padding-top: 28px;
-	height: 30px;
-	width: 30px;
+	padding-top: 10px;
+	width: 28%;
     -webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
@@ -265,8 +264,8 @@ fieldset {
 
 .mainmenu .navbar-nav li a {
     color: #fff;
-    font-size: 10px;
-    padding: 30px 15px;
+    font-size: 16px;
+    padding: 36px 15px;
     -webkit-transition: .3s;
     transition: .3s;
     font-weight: 500;
@@ -306,7 +305,8 @@ fieldset {
 }
 
 .menu-bg .logo {
-    padding-top: 18px;
+	padding-top: 8px;
+	width: 18%;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
