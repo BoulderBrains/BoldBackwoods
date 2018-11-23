@@ -217,15 +217,7 @@ fieldset {
 .header-text img {
     width: 200px;
     border-radius: 50%;
-    margin: 0 auto;
-    border: 2px solid #fff;
-}
-
-.header-text h2 {
-    color: #fff;
-    font-size: 105px;
-    font-weight: 900;
-    text-transform: capitalize;
+	margin: 0 auto 40px;
 }
 
 .header-text p {
@@ -248,10 +240,9 @@ fieldset {
 }
 
 .logo {
-	padding-top: 11px;
-	width: 28%;
+	padding-top: 28px;
     -webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .logo a {
@@ -305,8 +296,7 @@ fieldset {
 }
 
 .menu-bg .logo {
-	padding-top: 8px;
-	width: 18%;
+	padding-top: 18px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -726,7 +716,8 @@ ul.work li.active {
 
 .social-links ul {
     padding: 0;
-    margin: 0;
+	margin: 0;
+	text-align: center;
 }
 
 .social-links ul li {
