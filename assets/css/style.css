@@ -477,7 +477,7 @@ fieldset {
 */
 
 .work {
-	background: #f7f7f7;
+	/* background: #f7f7f7; */
 }
 
 .work-inner .mix {
@@ -583,6 +583,11 @@ ul.work li.active {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -webkit-transition: .3s;
     transition: .3s;
+}
+
+/* ETSY SECTION */
+#etsy {
+	background: #f7f7f7;
 }
 
 
