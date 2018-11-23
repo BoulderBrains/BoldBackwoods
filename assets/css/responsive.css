@@ -21,9 +21,6 @@ Version      : 1.0
     .about-image img {
         margin-top: 30px;
     }
-    .single-testimonial p {
-        padding: 0 50px;
-    }
     .single-contact-details i {
         margin-bottom: 20px;
     }
@@ -116,9 +113,6 @@ Version      : 1.0
     }
     .single-project-complete h2 {
         font-size: 40px;
-    }
-    .single-testimonial p {
-        padding: 0 10px;
     }
     .single-project-done {
         text-align: center;

@@ -10,7 +10,7 @@
 * 06.RESUME CSS STYLE
 * 07.SERVICE CSS STYLE
 * 08.WORK CSS STYLE
-* 09.TESTIMONIAL CSS STYLE
+
 * 10.CONTACT CSS STYLE
 * 11.FOOTER CSS STYLE
 * ----------------------------------------------------------------------------------------
@@ -182,9 +182,9 @@ fieldset {
 .welcome-image-area {
     position: relative;
     height: 100%;
-    background: url(../images/bg/lush-trees.jpg);
+    background: url(../images/bg/trees-yellow-filter.png);
     background-size: cover;
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 .welcome-image-area:after {
@@ -215,7 +215,7 @@ fieldset {
 }
 
 .header-text img {
-    width: 200px;
+    width: 35%;
     border-radius: 50%;
 	margin: 0 auto 40px;
 }
@@ -242,15 +242,20 @@ fieldset {
 .logo {
 	padding-top: 28px;
     -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .logo a {
     display: block;
     color: #fff;
     text-transform: capitalize;
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.tagline {
+	margin-bottom: 20px;
 }
 
 .mainmenu .navbar-nav li a {
@@ -590,49 +595,23 @@ ul.work li.active {
 	background: #f7f7f7;
 }
 
-
-/*
-* ----------------------------------------------------------------------------------------
-* 09.TESTIMONIAL CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-/* .testimonial-area {
-    background: #f7f7f7;
+#etsy .section-title {
+	margin-bottom: 0;
 }
 
-.testimonial-list {}
+.etsy-logo {
+	width: 50%;
+	margin-top: 25px;
+	transition: transform .2s;
 
-.single-testimonial h2 {
-    font-size: 12px;
-    text-transform: uppercase;
-    -webkit-transition: .3s;
-    transition: .3s;
-    color: #232323;
-    letter-spacing: 2px;
-    font-weight: 700;
+	/* // media query 
+	medium up: 
+	width: 20%; */
 }
 
-.single-testimonial h3 {
-    font-size: 12px;
-    text-transform: capitalize;
-    font-weight: 300;
-    margin-top: 0;
+.etsy-logo:hover {
+	transform: scale(1.15);
 }
-
-.single-testimonial p {
-    line-height: 25px;
-}
-
-.owl-theme .owl-controls .owl-page span {
-    display: block;
-    width: 5px;
-    height: 5px;
-    margin: 5px 7px;
-    border-radius: 20px;
-    background: #000;
-}
- */
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -642,6 +621,10 @@ ul.work li.active {
 
 .contact-me-area {
     background: #f7f7f7;
+}
+
+.contact-tagline {
+	margin-bottom: 40px;
 }
 
 .form-control {
@@ -739,12 +722,12 @@ ul.work li.active {
 .header-links ul li a {
     color: #000;
     background: #fff;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     text-align: center;
     border-radius: 50%;
-    line-height: 30px;
-    font-size: 14px;
+    line-height: 50px;
+    font-size: 25px;
 }
 
 .header-links ul li a:hover {
