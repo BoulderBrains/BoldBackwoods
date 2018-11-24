@@ -215,7 +215,6 @@ fieldset {
 }
 
 .header-text img {
-    width: 35%;
     border-radius: 50%;
 	margin: 0 auto 40px;
 }
@@ -241,6 +240,7 @@ fieldset {
 
 .logo {
 	padding-top: 28px;
+	width: 300px;
     -webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	font-family: 'Montserrat', sans-serif;
