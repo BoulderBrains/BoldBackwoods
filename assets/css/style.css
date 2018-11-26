@@ -240,7 +240,7 @@ fieldset {
 
 .logo {
 	padding-top: 28px;
-	width: 300px;
+	width: 30%;
     -webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	font-family: 'Montserrat', sans-serif;
