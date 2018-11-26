@@ -63,11 +63,8 @@ Version      : 1.0
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
-	.logo {
+	.BBLogo {
 		width: 100%;
-	}
-	.logo a {
-		white-space: nowrap;
 	}
     .site-header .navbar-collapse {
         opacity: 1;
@@ -188,7 +185,7 @@ Version      : 1.0
 /* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.logo {
+	.BBLogo {
 		width: 75%;
 	}
 }

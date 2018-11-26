@@ -240,7 +240,7 @@ fieldset {
 
 .logo {
 	padding-top: 28px;
-	width: 30%;
+	/* width: 30%; */
     -webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	font-family: 'Montserrat', sans-serif;
@@ -252,6 +252,10 @@ fieldset {
     text-transform: capitalize;
     font-weight: bold;
 	font-size: 23px;
+}
+
+.BBLogo {
+	width: 50%;
 	white-space: nowrap;
 }
 
