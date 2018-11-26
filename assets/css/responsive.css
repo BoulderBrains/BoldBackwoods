@@ -65,7 +65,9 @@ Version      : 1.0
 @media only screen and (max-width: 767px) {
 	.logo {
 		width: 100%;
-	
+	}
+	.logo a {
+		white-space: nowrap;
 	}
     .site-header .navbar-collapse {
         opacity: 1;

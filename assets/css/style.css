@@ -251,7 +251,8 @@ fieldset {
     color: #fff;
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 23px;
+	font-size: 23px;
+	white-space: nowrap;
 }
 
 .tagline {
