@@ -700,13 +700,21 @@
 								</div>
 							</div>
 						</form> -->
-						<form action="https://formspree.io/joshuadstarkey@gmail.com" method="POST">
-							<input type="text" name="name" placeholder="Your name">
-							<input type="email" name="email" placeholder="Your email">
-							<textarea type="text" name="message" placeholder="Your message"></textarea>
-							<button	type="submit">Send message</button>
+						<form id="contact-form" action="https://formspree.io/joshuadstarkey@gmail.com" method="POST">
+							<div class="row">
+								<div class="form-group col-md-12 wow fadeInUp" data-wow-delay="0.2s">
+									<input class="form-control" type="text" name="name" placeholder="Your name">
+								</div>
+								<div class="form-group col-md-12 wow fadeInUp" data-wow-delay="0.4s">
+									<input class="form-control" type="email" name="email" placeholder="Your email">
+								</div>
+								<div class="form-group col-md-12 wow fadeInUp" data-wow-delay="0.6s">
+									<textarea class="form-control" type="text" name="message" placeholder="Your message"></textarea>
+								</div>
+								<div class="col-md-12 text-center wow fadeInUp" data-wow-delay="0.8s">
+									<button	type="submit" id="submitButton" class="btn btn-lg btn-contact-bg">Send message</button>
+								</div>
 						</form>
-					
 					</div>
 				</div>
 			</div>
