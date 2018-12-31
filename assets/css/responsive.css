@@ -1,20 +1,15 @@
-/*
-* ----------------------------------------------------------------------------------------
-Author       : Creativepersonal
-Template Name: Matola - Material Personal resume Template
-Version      : 1.0
-* ----------------------------------------------------------------------------------------
-*/
-
-
-/* Medium Layout: 1280px. */
-
-@media only screen and (min-width: 992px) and (max-width: 1280px) {}
-
+@media only screen and (min-width: 767px) {
+	.BBLogo {
+		width: 50%;
+	}
+}
 
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
+	.header-text {
+		margin-top: 200px;
+	}
     .single-project-done {
         text-align: center;
     }
@@ -98,7 +93,7 @@ Version      : 1.0
     }
     .welcome-image-area,
     .welcome-video-area {
-        padding-top: 120px;
+        padding-top: 50px;
     }
     .welcome-image-area h2,
     .single-slide-item h2,
@@ -162,7 +157,7 @@ Version      : 1.0
     }
     .header-text {
         padding: 0px 80px;
-        margin-top: 50px;
+		margin: 50px 0;
     }
     .area-shadow {
         padding: 30px;
@@ -177,10 +172,3 @@ Version      : 1.0
         margin-bottom: 50px;
     }
 }
-
-
-/* Wide Mobile Layout: 480px. */
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-}
-

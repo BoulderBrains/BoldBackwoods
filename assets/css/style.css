@@ -5,10 +5,6 @@
 * 03.HOMEPAGE CSS STYLE
     -LOGO CSS
     -MENU CSS
-* 04.ABOUT CSS STYLE
-* 05.SKILLS CSS STYLE
-* 06.RESUME CSS STYLE
-* 07.SERVICE CSS STYLE
 * 08.WORK CSS STYLE
 
 * 10.CONTACT CSS STYLE
@@ -90,7 +86,7 @@ fieldset {
 }
 
 .section-padding {
-    padding: 60px 0px;
+    padding: 25px 0px;
 }
 
 .section-title {
@@ -175,13 +171,8 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.welcome-area {
-    height: 100%;
-}
-
 .welcome-image-area {
     position: relative;
-    height: 100%;
     background: url(../images/bg/trees-yellow-filter.png);
     background-size: cover;
     z-index: 1;
@@ -211,7 +202,8 @@ fieldset {
 
 .header-text {
     padding: 0px 100px;
-    margin-top: 100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 .header-text img {
@@ -251,11 +243,6 @@ fieldset {
     text-transform: capitalize;
     font-weight: bold;
 	font-size: 23px;
-	white-space: nowrap;
-}
-
-.BBLogo {
-	width: 250px;
 	white-space: nowrap;
 }
 
@@ -324,10 +311,6 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.about-me-area {}
-
-.about-image {}
-
 .about-text p {
     font-weight: 300;
     margin-bottom: 30px;
@@ -352,143 +335,9 @@ fieldset {
 
 /*
 * ----------------------------------------------------------------------------------------
-* 05.SKILLS CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-/* .skills-area {}
-
-.single-progress-bar {
-    margin-bottom: 10px;
-}
-
-.my-skill {}
-
-.progress-bar {
-    background: #000;
-}
-
-.progress {
-    height: 10px;
-    margin-bottom: 12px;
-    background: #F5F5F5;
-    box-shadow: none !important;
-    border: 0;
-    margin-top: 4px;
-    border-radius: 0;
-} */
-
-
-/*
-* ----------------------------------------------------------------------------------------
-* 06.RESUME CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-/* .resume-design-area {}
-
-.single-resume h3 {
-    font-size: 18px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    color: #000;
-    text-transform: capitalize;
-}
-
-.single-resume h3:before {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    position: absolute;
-    border: 2px solid #000;
-    background-color: transparent;
-    left: -75px;
-    content: '';
-    top: 15px;
-    background: #000;
-}
-
-.resume-left h2 {
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.resume-right:before {
-    background-color: #000;
-    opacity: .5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    content: '';
-    height: calc(100% + 0px);
-    width: 1px;
-    position: absolute;
-    left: -61px;
-    top: 16px;
-}
-
-.resume-right p {
-    margin-bottom: 20px;
-}
-
-.resume-right h4 {
-    font-size: 12px;
-    line-height: 32px;
-    margin-top: 10;
-} */
-
-
-/*
-* ----------------------------------------------------------------------------------------
-* 07.SERVICE CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-/* .service-area {
-    background: #f7f7f7;
-}
-
-.single-service i {
-    font-size: 40px;
-    margin-bottom: 10px;
-    -webkit-transition: .3s;
-    transition: .3s;
-    background: #000;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    text-align: center;
-    color: #fff;
-    line-height: 80px;
-    float: left;
-    margin-right: 25px;
-    margin-bottom: 50px;
-}
-
-.single-service h2 {
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 20px 0px;
-    -webkit-transition: .3s;
-    transition: .3s;
-    color: #232323;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
-.single-service p {
-    color: #232323;
-} */
-
-
-/*
-* ----------------------------------------------------------------------------------------
 * 08.WORK CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-
-.work {
-	/* background: #f7f7f7; */
-}
 
 .work-inner .mix {
     display: none;
@@ -608,15 +457,12 @@ ul.work li.active {
 	width: 50%;
 	margin-top: 25px;
 	transition: transform .2s;
-
-	/* // media query 
-	medium up: 
-	width: 20%; */
 }
 
 .etsy-logo:hover {
 	transform: scale(1.15);
 }
+
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -702,10 +548,6 @@ ul.work li.active {
 * 11.FOOTER CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-
-/* .footer-area {
-    padding: 5px 0px;
-} */
 
 .social-links ul {
     padding: 0;
