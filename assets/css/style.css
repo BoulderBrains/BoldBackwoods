@@ -244,9 +244,9 @@ fieldset {
 
 .header-text p {
     color: #fafafa;
-    font-size: 30px;
-    font-weight: 400;
-    text-transform: capitalize;
+    font-size: 25px;
+	font-weight: 400;
+    text-transform: uppercase;
 }
 
 .header-top-area {
@@ -278,7 +278,8 @@ fieldset {
 }
 
 .tagline {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .mainmenu .navbar-nav li a {
