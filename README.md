@@ -1,1 +1,1 @@
-# Website code for BoldBackwoods.com
+# Website code for www.boldbackwoods.com
