@@ -228,7 +228,8 @@ fieldset {
 }
 
 .header-links ul li a:hover {
-    color: #000;
+	background: #EFB630;
+	transform: scale(1.15);
 }
 
 .header-text {
